@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.verticalLine{
+    width: 1px;
+height: 206px;
+background-color: rgba(106, 106, 106, 1);
+
+}
+
+.intro{
+    font-size: 54px;
+    font-weight: 600;
+  width: 387px;
+  
+}
+
+.introduction h5{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.introduction p{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+
+.introduction{
+    width: 475px;
+}

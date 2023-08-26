@@ -3,6 +3,7 @@
 import Navbar from './components/Navbar/Navbar';
 import styles from "./App.module.css"
 import Hero from './components/Hero/Hero';
+import IntroSection from './components/IntoSection/IntroSection';
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,9 @@ function App() {
         <Navbar/>
         <Hero/>
       </div>
-    
+       <div className={styles.bodyWrapper}>
+      <IntroSection/>
+       </div>
     </div>
   );
 }

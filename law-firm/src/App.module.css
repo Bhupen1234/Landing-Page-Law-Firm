@@ -4,3 +4,8 @@
     padding-right: 200px;
     background-color: var(--color-backgroundBlack);
 }
+.bodyWrapper{
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
