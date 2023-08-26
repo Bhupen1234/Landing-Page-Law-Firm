@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.heroText{
+    width: 571px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    gap: 32px;
+}
+
+
+.heroText h2{
+    font-size: 66px;
+    font-weight: 700;
+}
+.heroText p{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+

@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbarContent{
+    width: 431px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactButton>button{
+    border: 2px solid var(--color-white);
+    width: 172px;
+    height: 47px;
+    font-size: 16px;
+    background-color:  #1D1D1D;
+    color: var(--color-white);
+    font-weight: 600;
+    cursor: pointer;
+
+}

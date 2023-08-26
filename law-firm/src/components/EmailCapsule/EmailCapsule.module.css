@@ -1,0 +1,35 @@
+.wrapper{
+    width: 438px;
+    height: 74px;
+    background-color:rgba(35, 34, 34, 1);
+    border-radius: 43px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+   
+    border-radius: 43px;
+    border: none;
+    outline: none;
+    margin: 24px;
+    background-color: rgba(35, 34, 34, 1);
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.button{
+    width: 137px;
+height: 62px;
+border-radius: 43px;
+background-color: var(--color-primary);
+margin: 6px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 600;
+
+}
+
