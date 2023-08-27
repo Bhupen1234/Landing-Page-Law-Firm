@@ -1,0 +1,53 @@
+.wrapper{
+    width: 359px;
+height: 377px;
+ display: flex;
+ flex-direction: column;
+ gap: 26px;
+ border-radius: 14px;
+ border: 1.4px solid rgba(255, 255, 255, 0.10);
+padding-left: 23px;
+padding-top: 28px;
+padding-right: 43px;
+}
+
+.cardImage{
+    width: 101px;
+   height: 101px;
+   border-radius: 100%;
+   background-color: var(--color-white);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.cardText>h3{
+    font-size: 24px;
+   font-weight: 600;
+   margin-bottom: 26px;
+}
+
+.cardText>p{
+    font-size: 14px;
+font-weight: 500;
+opacity: 0.3;
+
+}
+
+.selectedCard{
+    background-color: #2E2E2E;;
+}
+
+
+.btn>button{
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+background-color: var(--color-primary);
+
+cursor: pointer;
+font-size: 14px;
+font-weight: 600;
+}
+

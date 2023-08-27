@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "./IntroSection.module.css"
-const IntroSection = () => {
+import styles from "./Section1.module.css"
+const Section1 = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.intro}>Let’s Introduce Ourself</div>
@@ -17,4 +17,4 @@ enim velit mollit Exercitation.</p>
   )
 }
 
-export default IntroSection
+export default Section1
