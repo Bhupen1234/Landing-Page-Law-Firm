@@ -34,7 +34,7 @@ const Section2 = () => {
       {cardData.map((data, index) => (
           <Card
             key={index}
-           client
+           client={false}
             isSelected={selectedCardIndex === index}
             onClick={() => handleCardClick(index)}
             image={data.Gift}

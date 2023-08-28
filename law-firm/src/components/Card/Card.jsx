@@ -3,15 +3,16 @@ import styles from "./Card.module.css"
 import Gift from "../../assets/GiftImg.png"
 const Card = ({client,image,title,description,subtitle,onClick,isSelected}) => {
     const cardWrapperClasses = `${styles.wrapper} ${isSelected ? styles.selectedCard : ""}`;
-    if(!client){
+    if(client){
   return (
     <div className={cardWrapperClasses} onClick={onClick}>
        <div className={styles.cardImage}>
-        <img src={Gift} alt="" />
+        <img src={image} alt={title}/>
        </div>
        <div className={styles.cardText}>
-         <h3>98% Success Rate</h3>
-         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.</p>
+         <h3>{title}</h3>
+         <h5>{subtitle}</h5>
+         <p>{description}</p>
        </div>
       
 

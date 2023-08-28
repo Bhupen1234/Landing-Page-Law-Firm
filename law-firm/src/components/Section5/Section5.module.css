@@ -1,0 +1,57 @@
+.heading{
+   
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 97px;
+}
+.wrapper{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+.cardWrapper{
+    width: 344px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding-left: 20px;
+    height: 109px;
+    
+    
+   
+   
+}
+.cardText>h4{
+    font-size: 24px;
+ 
+    font-weight: 600;
+}
+
+.cardText>p{
+    font-size: 14px;
+
+font-weight: 400;
+opacity: 0.3;
+}
+
+
+
+.teams{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 82px;
+
+}
+
+.selectedCard{
+    background-color: var(--color-primary);
+    border-radius: 14px;
+    color: var(--color-black);
+}

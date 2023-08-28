@@ -1,0 +1,34 @@
+.leftNavigation{
+  width: 90px;
+ height: 90px;
+ border-radius: 100%;
+ background-color: var(--color-white);
+ z-index: 10;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+
+}
+
+.rightNavigation{
+  width: 90px;
+ height: 90px;
+ border-radius: 100%;
+ background-color: var(--color-primary);
+ z-index: 10;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+
+
+}
+
+
+  .wrapper{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }

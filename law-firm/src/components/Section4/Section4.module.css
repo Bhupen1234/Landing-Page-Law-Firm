@@ -1,0 +1,28 @@
+.wrapper{
+    margin-top: 140px;
+    width: 100%;
+   
+}
+
+
+.heading>h2{
+    
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 97px;
+    width: 374px;
+}
+
+
+.navigation{
+    display: flex;
+    gap: 18px;
+}
+
+.heading{
+    display: flex;
+
+    justify-content: space-between;
+   
+
+}
