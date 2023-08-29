@@ -36,3 +36,31 @@ img,svg{
 .swiper-slide{
   width: auto !important;
 }
+
+.MuiAccordion-root{
+  background-color: #1D1D1D !important;
+  font-family:  "Inter",sans-serif !important;
+  color: var(--color-white) !important;
+  width: 100% !important;
+ 
+
+}
+.MuiAccordion-rounded{
+  border-radius: 10px !important;
+}
+
+.MuiAccordionSummary-expandIconWrapper{
+  color: var(--color-white) !important;
+  font-size: 24px !important;
+  
+  font-weight: 600 !important;
+}
+
+.MuiAccordionDetails-root{
+  color: var(--color-white);
+  background-color: #1D1D1D;
+  font-size: 18px !important;
+
+font-weight: 500 !important;
+opacity: 0.3;
+}

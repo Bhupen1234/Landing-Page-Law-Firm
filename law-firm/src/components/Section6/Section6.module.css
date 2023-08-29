@@ -1,0 +1,22 @@
+.wrapper{
+    width: 100%;
+}
+
+.heading{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.contentText{
+    opacity:0.3;
+}
+
+.contentWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordionWrapper{
+    width: 564px;
+}
+
