@@ -29,7 +29,7 @@ const Carousel = ({ data,renderCardComponent,initialSlide}) => {
         initialSlide={initialSlide}
         modules={{ Navigation }}
         slidesPerView={"auto"}
-        spaceBetween={40}
+        spaceBetween={36}
         allowTouchMove
       >
         <Controls data={data}  initialSlide={initialSlide}/>

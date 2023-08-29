@@ -3,7 +3,7 @@
 import Navbar from './components/Navbar/Navbar';
 import styles from "./App.module.css"
 import Hero from './components/Hero/Hero';
-import {Route, Router, Routes, Switch } from "react-router-dom";
+import { Link as ScrollLink, Element } from 'react-scroll';
 import Section1 from './components/Section1/Section1';
 import Section2 from './components/Section2/Section2';
 import Section3 from './components/Section3/Section3';
@@ -15,38 +15,53 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    
+<div className="App">
 
      
-      <div className={styles.LandingPagewrapper}>
-        <Navbar isFooter={false}/>
-        <Hero/>
-      </div>
-       <div className={styles.bodyWrapper}>
-      <Section1 />
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Section7/>
-
-       </div>
-        <div className={styles.footer}>
-       <Footer/>
-        </div>
-
+<div className={styles.LandingPagewrapper}>
+  <Navbar isFooter={false}/>
+  <Element name='hero'>
+  <Hero/>
+</Element>
  
+</div>
+ <div className={styles.bodyWrapper}>
+<Element name='intro'>
+  <Section1 />
+</Element>
+<Element name='attorneys'>
+<Section2/>
+</Element>
+<Element name="Section3">
+<Section3/>
+</Element>
 
-{/* <Routes>
-     <Route path='/attorneys' element={ <Section2 />}/>
-     <Route path='/areas' element={  <Section3 />}/>
-     <Route path='/aboutus' element={  <Section5 />}/>
-     <Route path='/' element={  <Hero />}/>
-</Routes> */}
-  
+<Element >
+<Section4/>
+</Element>
+<Element name='team'>
+<Section5/>
+</Element>
 
-    </div>
+<Element name='faq'>
+  <Section6/>
+</Element>
+<Element name='footer'>
+<Section7/>
+</Element>
+
+
+ </div>
+  <div className={styles.footer}>
+ <Footer/>
+  </div>
+
+
+
+
+
+</div>
   );
 }
 
