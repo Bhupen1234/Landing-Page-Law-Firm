@@ -4,17 +4,17 @@ const Section7 = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.heading}>Subscribe Our Newsletter</div>
-      <div className={styles.input}>
+      <form className={styles.input}>
          <div className={styles.name}>
-           <input type="text" />
+           <input type="text" placeholder='Name:'/>
          </div>
          <div className={styles.email}> 
-         <input type="text" />
+         <input type="text" placeholder="Enter your Email :"/>
          </div>
-         <div className={styles.btn}>
+         <div className={styles.btn} >
           <button>Send</button>
          </div>
-      </div>
+      </form>
     </div>
   )
 }

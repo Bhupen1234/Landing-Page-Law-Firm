@@ -1,27 +1,49 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
 import {ReactComponent as  Logo} from "../../assets/Logo.svg"
-import { Link } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
+ import {ReactComponent as  Instagram} from "../../assets/Icons/Instagram.svg"
+ import {ReactComponent as  Facebook} from "../../assets/Icons/Facebook.svg"
+ import {ReactComponent as  Twitter} from "../../assets/Icons/Twitter.svg"
+ import {ReactComponent as  Pintrest} from "../../assets/Icons/Pintrest.svg"
 
-const Navbar = () => {
+const Navbar = ({isFooter}) => {
   return (
+    <>
+    
     <div className={styles.wrapper}>
-      <div className={styles.logo}>
+      <Link to="/" className={styles.logo}>
           <Logo/>
          
-      </div>
+      </Link>
       <div className={styles.navbarContent}>
-         <p>Homes</p>
-         <p>Attorneys</p>
-         <p>Practice Areas</p>
-         <p>About Us</p>
+         <Link className={styles.link}  to="/">Homes</Link>
+         <Link className={styles.link}  to="/attorneys">Attorneys</Link>
+         <Link className={styles.link} to="/areas">Practice Areas</Link>
+         <Link className={styles.link} to="/aboutus">About Us</Link>
       </div>
       <div className={styles.contactButton}>
-      <button >Contact Now</button>
+        {
+          isFooter ?
+          (
+           <div className={styles.icons}>
+               <Instagram/>
+               <Facebook/>
+               <Twitter/>
+               <Pintrest/>
+           </div>
+          )
+          :
+          (
+            <button >Contact Now</button>
+          )
+        }
+      
       </div>
-
+      
 
     </div>
+    </>
   )
 }
 

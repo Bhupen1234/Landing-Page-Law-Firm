@@ -12,3 +12,12 @@
     flex-direction: column;
      gap: 170px;
 }
+
+.footer{
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 367px;
+    background-color: var(--color-backgroundBlack);
+   
+}
